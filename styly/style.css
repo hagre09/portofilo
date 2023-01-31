@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+aside {
+  width: 125px;
+  background-color: #ff868c;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transition: 0.5s;
+}
+aside .logo {
+  height: 100px;
+  background-color: #eb7278;
+}
+aside .logo h1, aside .logo .sectionbody .hrderhome .headerText p span, .sectionbody .hrderhome .headerText p aside .logo span {
+  padding: 25px 30%;
+}
+aside .asid-nav {
+  padding-top: 90px;
+}
+aside .asid-nav a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+aside .asid-nav a i {
+  padding: 15px 20px 10px 10px;
+  font-size: 20px;
+}
+aside .asid-nav a span {
+  display: none;
+}
+
+aside:hover {
+  width: 250px;
+}
+aside:hover .asid-nav a span {
+  display: block;
+  padding-top: 15px;
+  padding-right: 20px;
+}
+aside:hover a:hover {
+  background-color: #ff9ca1;
+}
+
+.sectionbody {
+  display: block;
+  margin-left: 8%;
+}
+.sectionbody .hrderhome {
+  height: 100vh;
+  justify-content: space-evenly;
+  padding: 20vh 10vh 0vh 10vh;
+}
+.sectionbody .hrderhome .headerText {
+  margin-top: 10vh;
+}
+.sectionbody .hrderhome .headerText h1, .sectionbody .hrderhome .headerText p span {
+  color: #eb7278;
+}
+.sectionbody .hrderhome .headerText p {
+  font-size: larger;
+  color: #6e6e6e;
+  padding-top: 15px;
+}
+.sectionbody .hrderhome .headerImg img {
+  width: 100%;
+  border-radius: 50%;
+}
+.sectionbody .aboutSection {
+  height: 85vh;
+  padding-left: 4vw;
+}
+.sectionbody .aboutSection .aboutText h1, .sectionbody .aboutSection .aboutText .hrderhome .headerText p span, .sectionbody .hrderhome .headerText p .aboutSection .aboutText span {
+  color: #eb7278;
+}
+.sectionbody .aboutSection .aboutText p {
+  font-size: larger;
+  color: #6e6e6e;
+  padding-top: 15px;
+}
+.sectionbody .aboutSection .aboutImg {
+  background-color: #f5bfcc;
+  height: 400px;
+  border-radius: 10px;
+}
+.sectionbody .mytoolkitSection {
+  height: 60vh;
+  padding-left: 7vw;
+}
+.sectionbody .mytoolkitSection h1, .sectionbody .mytoolkitSection .hrderhome .headerText p span, .sectionbody .hrderhome .headerText p .mytoolkitSection span {
+  color: #eb7278;
+}
+.sectionbody .mytoolkitSection ul {
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+.sectionbody .mytoolkitSection ul li {
+  list-style: none;
+  font-family: "Nanum Pen Script", cursive;
+  color: #f5bfcc;
+}
+.sectionbody .mytoolkitSection ul li img {
+  width: 50px;
+}
+.sectionbody .worksSection {
+  padding-bottom: 20vh;
+  padding-left: 7vw;
+}
+.sectionbody .worksSection h1, .sectionbody .worksSection .hrderhome .headerText p span, .sectionbody .hrderhome .headerText p .worksSection span {
+  color: #eb7278;
+  padding-bottom: 50px;
+}
+.sectionbody .worksSection .cards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sectionbody .worksSection .cards .card-border {
+  border: 3px solid #fda7ac;
+  margin: 10px;
+  padding: 10px;
+}
+.sectionbody .worksSection .cards .card-border .card-bg {
+  background-color: #fff7f7;
+}
+.sectionbody .worksSection .cards .card-border .card-bg a {
+  background-color: #ff7171;
+  border: 1px solid #ff7171;
+  width: 100px;
+  font-size: 20px;
+}
+.sectionbody .worksSection .cards .card-border .card-bg a:hover {
+  background-color: white;
+  color: #ff7171;
+  border: 3px solid #fda7ac;
+}
+.sectionbody .contactSection {
+  height: 100vh;
+  background-color: #fff7f7;
+  padding-left: 7vw;
+  padding-top: 70px;
+}
+.sectionbody .contactSection .contactText h1, .sectionbody .contactSection .contactText .hrderhome .headerText p span, .sectionbody .hrderhome .headerText p .contactSection .contactText span {
+  color: #eb7278;
+}
+.sectionbody .contactSection .contactText p {
+  font-size: larger;
+  color: #6e6e6e;
+  padding-top: 15px;
+  line-height: 1.8;
+}
+.sectionbody .contactSection .contactText .contactIcon a {
+  text-decoration: none;
+  color: #eb7278;
+  font-size: 30px;
+}
+.sectionbody .contactSection .contactForm div {
+  padding-bottom: 30px;
+}
+.sectionbody .contactSection .contactForm div input, .sectionbody .contactSection .contactForm div textarea {
+  border: 3px solid #fda7ac;
+}
+.sectionbody .contactSection .contactForm div button {
+  background-color: #ff7171;
+  color: white;
+}
+.sectionbody .contactSection .contactForm div button:hover {
+  background-color: white;
+  color: #ff7171;
+  border: 3px solid #fda7ac;
+}
+.sectionbody footer {
+  height: 80px;
+  background-color: #ff868c;
+  text-align: center;
+}
+.sectionbody footer p {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+  font-family: "Nanum Pen Script", cursive;
+}
+
+@media screen and (max-width: 992px) {
+  .sectionbody .hrderhome {
+    padding: 10vh 10vh 30vh 10vh;
+  }
+  .sectionbody .aboutSection {
+    height: auto;
+    align-items: center;
+    padding: 7vw 5vw;
+  }
+  .sectionbody .aboutSection .aboutImg {
+    margin-top: 10vh;
+  }
+  .sectionbody .mytoolkitSection {
+    height: 100vh;
+    padding-top: 30vh;
+  }
+  .sectionbody .mytoolkitSection li {
+    padding: 15px;
+  }
+  .sectionbody .contactSection {
+    height: auto;
+    padding: 7vw;
+  }
+}
+@media screen and (max-width: 1400px) {
+  * {
+    margin: 0;
+  }
+  .sectionbody {
+    margin: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
